@@ -1,4 +1,4 @@
-import Bullet from "../entities/Bullet.mjs";
+import Bullet from "../entities/Bullet.js";
 
 export default class BulletController {
   bullets = [];

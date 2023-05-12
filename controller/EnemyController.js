@@ -1,5 +1,5 @@
-import Enemy from "../entities/Enemy.mjs";
-import MovingDirection from "../constants/MovingDirection.mjs";
+import Enemy from "../entities/Enemy.js";
+import MovingDirection from "../constants/MovingDirection.js";
 
 export default class EnemyController {
   enemyMap = [
@@ -129,8 +129,6 @@ export default class EnemyController {
       enemy.draw(ctx);
     });
   }
-
-  happy = () => {};
 
   createEnemies() {
     this.enemyMap.forEach((row, rowIndex) => {
